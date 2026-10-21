@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="I didn't like Dewey's freshest olive oil at first. Here's what changed my mind, and why that peppery kick is a good thing.">
+<meta property="og:title" content="What's the Healthiest Olive Oil?">
+<meta property="og:description" content="I didn't like Dewey's freshest olive oil at first. Here's what changed my mind, and why that peppery kick is a good thing.">
+<meta property="og:image" content="https://dcollierphoto.github.io/wild-groves-stories/whats-the-healthiest-olive-oil/harvest-crate.jpg">
+<style>html{-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}</style>
+<title>What's the Healthiest Olive Oil?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one centered reading column (about 680px), photos at column width with a gentle 4:5 crop, a single pull quote. */
+:root{
+  --bg:#fbfbf8;
+  --fg:#1d1f1b;
+  --muted:#6b6e66;
+  --rule:#e3e4dd;
+  --olive:#56662f;
+  --serif:"Newsreader",Charter,"Iowan Old Style",Georgia,serif;
+  --sans:"Public Sans",-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151612;--fg:#e9e8e1;--muted:#9c9d93;--rule:#2c2e27;--olive:#a9b97a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#151612;--fg:#e9e8e1;--muted:#9c9d93;--rule:#2c2e27;--olive:#a9b97a;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--serif);-webkit-font-smoothing:antialiased}
+.page{max-width:728px;margin:0 auto;padding-block:56px 96px;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+.kicker{font:600 12px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--olive);margin:0 0 18px}
+h1{font:500 clamp(36px,6vw,54px)/1.08 var(--serif);letter-spacing:-.02em;margin:0 0 16px;text-wrap:balance}
+.dek{font:400 clamp(20px,2.6vw,23px)/1.4 var(--serif);color:var(--muted);margin:0 0 28px;text-wrap:balance}
+.byline{display:flex;align-items:center;gap:12px;font:400 14px/1.4 var(--sans);color:var(--muted);padding-bottom:28px;border-bottom:1px solid var(--rule);margin-bottom:36px}
+.byline b{display:block;color:var(--fg);font-weight:600}
+.avatar{width:44px;height:44px;border-radius:50%;background:var(--olive);color:var(--bg);display:grid;place-items:center;font:500 16px var(--serif);flex-shrink:0}
+figure{margin:44px 0}
+figure img{display:block;width:100%;max-width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:2px;background:var(--rule)}
+figure.hero{margin-top:0}
+figure.hero img{object-position:50% 68%}
+figcaption{font:400 14px/1.45 var(--sans);color:var(--muted);text-align:center;margin-top:12px}
+.body p{font-size:21px;line-height:1.62;margin:0 0 1.35em;letter-spacing:-.003em}
+.body p.lead::first-letter{float:left;font:500 4.1em/.82 var(--serif);margin:.06em .1em 0 0;color:var(--olive)}
+h2{font:500 28px/1.25 var(--serif);letter-spacing:-.01em;margin:56px 0 18px;text-wrap:balance}
+blockquote{margin:48px 0;padding:0 0 0 24px;border-left:3px solid var(--olive);font:italic 400 clamp(24px,3.4vw,29px)/1.4 var(--serif);color:var(--fg)}
+a{color:inherit;text-decoration-color:var(--olive);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--olive)}
+.end{text-align:center;color:var(--olive);font-size:22px;margin:48px 0 40px;letter-spacing:.6em}
+.about{display:flex;gap:16px;align-items:flex-start;border-top:1px solid var(--rule);padding-top:28px;font:400 15px/1.55 var(--sans);color:var(--muted)}
+.about b{color:var(--fg);font-weight:600}
+.about p{margin:0}
+.recipe{margin:56px 0 0;border:1px solid var(--rule);border-radius:4px;padding:28px 28px 24px;font-family:var(--sans)}
+.recipe-label{font:600 12px/1 var(--sans)!important;letter-spacing:.14em;text-transform:uppercase;color:var(--olive);margin:0 0 10px!important}
+.recipe h3{font:500 26px/1.2 var(--serif);margin:0 0 18px}
+.recipe ul{list-style:none;margin:0 0 18px;padding:0;display:flex;flex-direction:column}
+.recipe li{display:grid;grid-template-columns:6.5em 1fr;gap:12px;padding:9px 0;border-top:1px solid var(--rule);font-size:16px;line-height:1.4}
+.recipe li span{color:var(--muted);font-variant-numeric:tabular-nums}
+.body .recipe p.method{font:400 16px/1.5 var(--sans);margin:0}
+#recipe{scroll-margin-top:24px}
+@media (max-width:560px){
+  .page{padding-block:32px 72px;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+  .body p{font-size:19px;line-height:1.6}
+  figure{margin:32px -18px}
+  figure img{border-radius:0}
+  figcaption{padding:0 18px}
+  blockquote{padding-left:18px}
+  .recipe{padding:22px 18px 18px}
+}
+</style>
+
+</head>
+<body>
+<article class="page">
+  <p class="kicker">Wild Groves · Field Notes</p>
+  <h1>What's the Healthiest Olive Oil?</h1>
+  <p class="dek">I didn't like Dewey's freshest olive oil at first. Here's what changed my mind, and why that peppery kick is a good thing.</p>
+  <div class="byline">
+    <span class="avatar">DC</span>
+    <span><b>David Collier</b>Words &amp; photography · 5 min read</span>
+  </div>
+
+  <figure class="hero">
+    <img src="harvest-crate.jpg" alt="A grower smiling between rows of olive trees with a crate of fresh green and purple olives on his shoulder">
+    <figcaption>Harvest day in the grove.</figcaption>
+  </figure>
+
+  <div class="body">
+    <p class="lead">I've been photographing Wild Groves for about ten years. I've spent time in the groves, watched the harvest, and listened to Dewey explain everything from olive varieties to milling techniques.</p>
+    <p>And I have a confession.</p>
+    <p>For the first few years, I didn't particularly like his freshest olive oil.</p>
+    <p>Dewey would offer me a taste of the new harvest, and I'd politely try it. It was grassy, bitter, and peppery. So different from the oils I was used to that I actually wondered if something was wrong with it.</p>
+    <p>At home, we cooked mostly with butter, coconut oil, and avocado oil. I liked avocado oil precisely because it didn't taste like much of anything. When I started buying olive oil from Dewey, I'd even ask for bottles from the previous harvest. I preferred the softer, mellower flavor.</p>
+    <p>But somewhere along the way, my tastes changed. I began noticing the differences between olive varieties, the buttery ones, the grassy ones, even a Koroneiki with a subtle hint of banana.</p>
+    <p>And I started to understand what Dewey had been so excited about.</p>
+
+    <h2>Olive Oil Is Fruit Juice</h2>
+    <p>Well, essentially.</p>
+    <p>Olives are fruit, just like peaches or cherries. Extra virgin olive oil is made by crushing that fruit and separating the oil, without refining it.</p>
+    <p>And like other fresh foods, timing makes a difference.</p>
+    <p>Olives picked early, while they're still mostly green, can produce oil with remarkably intense flavors. Fresh-cut grass, green herbs, a pleasant bitterness, and a peppery little kick at the back of your throat.</p>
+
+    <figure>
+      <img src="olives-on-branch.jpg" alt="Olives on the branch, ripening from green to purple" loading="lazy">
+      <figcaption>Olives turning from green to purple on the branch.</figcaption>
+    </figure>
+
+    <p>That first oil of the harvest is called <strong>Olio Nuovo</strong>, Italian for "new oil."</p>
+    <p>At Wild Groves, the olives are picked early and milled within 24 hours. The oil is bottled shortly after harvest, while those vibrant flavors are at their freshest.</p>
+    <p>If you've never tasted it, you're in for a surprise.</p>
+
+    <h2>That Peppery Kick Is a Good Thing</h2>
+    <p>Here's something I wish I'd understood earlier.</p>
+    <p>Some of the flavors that make fresh olive oil so distinctive come from natural compounds called polyphenols. They're part of the olive's own defense system, and some have been shown to help protect fats in our blood from oxidative damage.</p>
+
+    <blockquote>That bitterness and pepperiness aren't flaws. They're often signs of the very compounds that make high-quality extra virgin olive oil interesting from a health perspective.</blockquote>
+
+    <p>Olive oil is also rich in monounsaturated fats, making it a particularly good choice when it replaces fats higher in saturated fat.</p>
+    <p>So while there's no single olive oil that's automatically the healthiest for everyone, <strong>fresh, well-made extra virgin olive oil is a terrific place to start.</strong> Early-harvest oils like Olio Nuovo can be especially rich in polyphenols.</p>
+    <p>Some people seek out these robust oils specifically for their health benefits, even taking a spoonful every morning.</p>
+    <p>But there's a much more enjoyable way to discover them.</p>
+
+    <figure>
+      <img src="olio-nuovo-bottle.jpg" alt="A bottle of Wild Groves Olio Nuovo lying on a bed of freshly picked green olives" loading="lazy">
+      <figcaption>Olio Nuovo, with the olives it came from.</figcaption>
+    </figure>
+
+    <h2>Start With a Piece of Bread</h2>
+    <p>Pour a little Olio Nuovo into a shallow dish, tear off a piece of good crusty bread, and dip.</p>
+    <p>That's it.</p>
+    <p>Notice the fresh, green aroma. The grassy flavor, the little bit of bitterness, and the peppery finish that sometimes catches you by surprise.</p>
+
+    <figure>
+      <img src="bread-dip.jpg" alt="A hand dipping crusty bread into a dish of green-gold olive oil beside a bottle of Wild Groves Olio Nuovo" loading="lazy">
+      <figcaption>Bread, a little salt, and new oil.</figcaption>
+    </figure>
+
+    <p>Try it over warm potatoes, roasted vegetables, a bowl of soup, or a simple plate of pasta. A drizzle over a finished dish can bring flavors to life in a way a neutral cooking oil never could.</p>
+    <p>And don't worry if your first taste surprises you.</p>
+    <p>I think good olive oil is a little like black coffee. At first, the bitterness might be all you notice. But over time, you begin to recognize and appreciate flavors you couldn't taste before.</p>
+    <p>You don't have to love the boldest olive oil immediately. Start experimenting. Taste different varieties. Try it with different foods.</p>
+    <p>You might be surprised how quickly your palate changes.</p>
+
+    <figure>
+      <img src="kitchen-pour.jpg" alt="Olive oil being poured from a Wild Groves bottle onto a small plate in a bright kitchen" loading="lazy">
+      <figcaption>A drizzle to finish.</figcaption>
+    </figure>
+
+    <p>These days, olive oil makes up probably 90% of the oil we use in our kitchen. We still reach for coconut oil when we're making brownies, but for just about everything else, it's olive oil.</p>
+    <p>And when the new harvest arrives, there's one bottle I especially look forward to.</p>
+
+    <h2>Only Once a Year</h2>
+    <p>Olio Nuovo is a fleeting pleasure.</p>
+    <p>As the months pass, its bold flavors gradually soften. The oil can still be wonderful, just mellower and rounder.</p>
+    <p>But that first taste of the new harvest is something special. It's a chance to experience olive oil at its freshest, with all the personality of the fruit it came from.</p>
+    <p>It's the difference between enjoying a good tomato and biting into one that's just been picked from the garden.</p>
+    <p>Both can be delicious. But there's something unforgettable about that first taste of the season.</p>
+
+    <figure>
+      <img src="bread-herbs.jpg" alt="Fingers dipping bread into olive oil sprinkled with herbs and pepper on a scalloped white plate" loading="lazy">
+      <figcaption>The simplest way to taste it.</figcaption>
+    </figure>
+
+    <p>Wild Groves Olio Nuovo arrives October 22 at the tasting room in Newcastle, California, and at wildgroves.com, while supplies last.</p>
+    <p><strong>Taste the new harvest. You might discover your new favorite olive oil.</strong></p>
+  </div>
+
+  <div class="end" aria-hidden="true">· · ·</div>
+
+  <footer class="about">
+    <span class="avatar">DC</span>
+    <p><b>David Collier</b> is a commercial and editorial photographer in Auburn, California, in the Sierra Nevada foothills. He has photographed Wild Groves olive oil for ten years.</p>
+  </footer>
+</article>
+
+</body>
+</html>
