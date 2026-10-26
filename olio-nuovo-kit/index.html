@@ -25,7 +25,8 @@ h1{font:500 clamp(36px,6vw,54px)/1.08 var(--serif);letter-spacing:-.02em;margin:
 .when{display:flex;align-items:center;gap:12px;font:600 13px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--olive);margin-bottom:18px}
 .num{width:28px;height:28px;border-radius:50%;background:var(--olive);color:var(--bg);display:grid;place-items:center;font:500 14px var(--serif);letter-spacing:0}
 .grid{display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px;align-items:start}
-.media video,.media img,.pending,.tile video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:2px;background:var(--rule);display:block}
+.media iframe{border:0}
+.media video,.media img,.media iframe,.pending,.tile video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:2px;background:var(--rule);display:block}
 .pending{display:grid;place-items:center;font:500 14px var(--sans);color:var(--muted);border:1px dashed var(--muted);background:transparent}
 h2{font:500 28px/1.2 var(--serif);margin:0 0 6px}
 .meta{font:400 14px/1.4 var(--sans);color:var(--muted);margin:0 0 12px}
@@ -95,7 +96,7 @@ Here&#x27;s what changed my mind, and why that peppery kick is a good thing. ðŸ“
   <section class="item" id="post-3">
     <div class="when"><span class="num">3</span><span>Sat, Oct 31</span></div>
     <div class="grid">
-      <div class="media"><div class="pending">Video coming soon</div></div>
+      <div class="media"><iframe src="https://player.vimeo.com/video/1238050807?h=a22b143414" title="Why Is the Freshest Olive Oil So Expensive?" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
       <div class="info">
         <h2>Why Is the Freshest Olive Oil So Expensive?</h2>
         <p class="meta">Video Â· Instagram Reel + Facebook</p>
@@ -107,7 +108,7 @@ Here&#x27;s what changed my mind, and why that peppery kick is a good thing. ðŸ“
 Olio Nuovo is here at the Wild Groves tasting room in Newcastle, CA, and at wildgroves.com.
 
 #OlioNuovo #WildGroves #OliveOil #NewcastleCA #OliveHarvest</pre></div>
-        <div class="actions"><button type="button" class="btn copy" data-t="cap3">Copy caption</button></div>
+        <div class="actions"><button type="button" class="btn copy" data-t="cap3">Copy caption</button><a class="btn o" href="https://vimeo.com/1238050807/a22b143414" target="_blank" rel="noopener">Open on Vimeo</a></div>
         
       </div>
     </div>
