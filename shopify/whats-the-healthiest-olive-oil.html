@@ -98,8 +98,8 @@ img.feat{width:200px;border-radius:2px;display:block;margin-top:8px}
 
 &lt;p&gt;&lt;em&gt;Words and photography by David Collier.&lt;/em&gt;&lt;/p&gt;</textarea><button class="btn" data-t="ar">Copy article</button>
 <h2>Featured image</h2><img class="feat" src="../whats-the-healthiest-olive-oil/harvest-crate.jpg" alt=""><a class="btn o" href="../whats-the-healthiest-olive-oil/harvest-crate.jpg" download>Download photo</a>
-<h2>Excerpt</h2><div class="field" id="ex">I didn't like Dewey's freshest olive oil at first. Here's what changed my mind, and why that peppery kick is a good thing.</div><button class="btn o" data-t="ex">Copy excerpt</button>
-<h2>Search description</h2><div class="field" id="se">I didn't like Dewey's freshest olive oil at first. Here's what changed my mind, and why that peppery kick is a good thing.</div><button class="btn o" data-t="se">Copy search description</button>
+<h2>Excerpt</h2><div class="field" id="ex">I've always liked Dewey's olive oil, but the boldest, freshest one took me a while to appreciate. Here's what changed my mind, and why that peppery kick is a good thing.</div><button class="btn o" data-t="ex">Copy excerpt</button>
+<h2>Search description</h2><div class="field" id="se">I've always liked Dewey's olive oil, but the boldest, freshest one took me a while to appreciate. Here's what changed my mind, and why that peppery kick is a good thing.</div><button class="btn o" data-t="se">Copy search description</button>
 <p style="color:var(--muted);font-size:15px;margin-top:36px">The photos load from David's Field Notes site. If you'd rather keep them on Shopify, upload them in Content → Files and swap the image links.</p>
 </main><script>
 document.querySelectorAll('[data-t]').forEach(b=>b.addEventListener('click',()=>{const el=document.getElementById(b.dataset.t);const t=el.value!==undefined&&el.tagName==='TEXTAREA'?el.value:el.textContent;const done=()=>{const o=b.textContent;b.textContent='Copied';setTimeout(()=>b.textContent=o,1500)};
